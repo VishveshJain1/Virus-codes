@@ -1,0 +1,62 @@
+Set wshshell = wscript.CreateObject("WScript.Shell") 
+Wshshell.run "CMD" 
+wscript.sleep 100
+wshshell.sendkeys "prompt Like/Subscribe"
+wscript.sleep 100
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys " start"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys " start"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys "ipconfig"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys " start"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys "systeminfo"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys " start"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 500
+wshshell.sendkeys "deskpart"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys " start"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 500
+wshshell.sendkeys "wmic LOGICALDISK get Caption, DriveType, FileSystem, FreeSpace, Size"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys " start"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 500
+wshshell.sendkeys "wmic CPU get Name, NumberOfCores, ProcessorId"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys " start"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 500
+wshshell.sendkeys "wmic COMPUTERSYSTEM get DNSHostName, Manufacturer, Model, NumberOfLogicalProcessors"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
+wscript.sleep 100
+wshshell.sendkeys " msinfo32"
+wscript.sleep 500
+wshshell.sendkeys "{enter}"
